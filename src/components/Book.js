@@ -18,7 +18,7 @@ export default function Book() {
             </div>
             <div className="bookWhatsApp">
                 <p className='bookWhatsAppHead'>Request an Appointment on Whatsapp.</p>
-                <button onClick={()=>{window.open("https://wa.me/7799001120")}} className='bookDetailsBtn'>Book an Appointment <i class="fa-solid fa-calendar-check"></i></button>
+                <button onClick={()=>{window.open("https://wa.me/7799001120")}} className='bookDetailsBtn'>Book an Appointment <i className="fa-solid fa-calendar-check"></i></button>
             </div>
         </div>
     </div>

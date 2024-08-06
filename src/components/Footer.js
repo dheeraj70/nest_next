@@ -14,9 +14,9 @@ export default function Footer() {
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15221.029481151216!2d78.344265!3d17.4952234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8bb2b9d820528499%3A0x7c697cabc0624dd0!2sDr%20Shravani&#39;s%20Nest%20Fertility!5e0!3m2!1sen!2sin!4v1722336547067!5m2!1sen!2sin"
           className="footerMap"
           style={{border:"0"}}
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         <div className="footer1Details">
             <div className="f1DetailName">
@@ -26,17 +26,17 @@ export default function Footer() {
             1st floor, krishna lila plaza, Viswaswara Nagar Colony, Shanti Nagar Colony, Madeenaguda, Hyderabad, Telangana 500049
             </div>
             <div className="f1DetailName">
-            <i class="fa-solid fa-envelope"></i> :
+            <i className="fa-solid fa-envelope"></i> :
             </div>
             <div className="f1DetailValue">
 steverogers@gmail.com            </div>
             <div className="f1DetailName">
-            <i class="fa-solid fa-phone"></i> :
+            <i className="fa-solid fa-phone"></i> :
             </div>
             <div className="f1DetailValue">
             7895412548            </div>
             <div className="f1DetailName">
-            <i class="fa-solid fa-phone"></i> :
+            <i className="fa-solid fa-phone"></i> :
             </div>
             <div className="f1DetailValue">
                 8963245671
@@ -70,9 +70,9 @@ steverogers@gmail.com            </div>
       <div className="footer3contact">
       <p className="footerLinksHead">Contact us</p>
         <ul className="footerLinksList">
-    <li className="footerLinksitems">Whatsapp us <i class="fa-brands fa-whatsapp"></i></li>
-    <li className="footerLinksitems">Call us <i class="fa-solid fa-phone"></i></li>
-    <li className="footerLinksitems">Email us <i class="fa-solid fa-envelope"></i></li>
+    <li className="footerLinksitems">Whatsapp us <i className="fa-brands fa-whatsapp"></i></li>
+    <li className="footerLinksitems">Call us <i className="fa-solid fa-phone"></i></li>
+    <li className="footerLinksitems">Email us <i className="fa-solid fa-envelope"></i></li>
     
 </ul>
       </div>

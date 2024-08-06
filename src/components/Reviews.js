@@ -30,7 +30,7 @@ export default function Reviews() {
               }}>
                 Review us{" "}
                 <div className="googleBack">
-                  <i class="fa-brands fa-google"></i>
+                  <i className="fa-brands fa-google"></i>
                 </div>
               </button>
             </div>
@@ -91,12 +91,12 @@ export default function Reviews() {
           swipeable
         >
           <div className="citem">Item 1</div>
-          <div class="citem">Item 1</div>
-          <div class="citem">Item 1</div>
-          <div class="citem">Item 1</div>
-          <div class="citem">Item 1</div>
-          <div class="citem">Item 1</div>
-          <div class="citem">Item 1</div>
+          <div className="citem">Item 1</div>
+          <div className="citem">Item 1</div>
+          <div className="citem">Item 1</div>
+          <div className="citem">Item 1</div>
+          <div className="citem">Item 1</div>
+          <div className="citem">Item 1</div>
         </Carousel>*/}
       </div>
       <iframe
