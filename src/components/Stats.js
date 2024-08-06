@@ -23,7 +23,7 @@ export default function Stats() {
         <iframe
           className="youtubeEmbed"
           
-          src="https://www.youtube.com/embed/sm3txNWurus?si=MaQojNNDs-pV1pHd?&autoplay=1&mute=1"
+          src="https://www.youtube-nocookie.com/embed/sm3txNWurus?si=MaQojNNDs-pV1pHd?&autoplay=1&mute=1"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
