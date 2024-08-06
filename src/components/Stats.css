@@ -1,0 +1,187 @@
+.stats{
+    padding-top: 15vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #f1d9fc;
+
+    color: #2c1626;
+}
+.stats_head{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.statLists{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+.statList{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    justify-content: space-around;
+    max-width: 1800px;
+}
+.stat{
+    width: 13vw;
+    min-width: 200px;
+    aspect-ratio: 1;
+    background-color: #532a48;
+    color: white;
+    border-radius: 100%;
+    border: #532a48 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.statHead{
+    margin: 0px;
+    font-size: calc(100% + 1.5vw);
+    font-weight: bold;
+}
+.statUnder{
+    margin: 0px;
+    font-size: 21px;
+}
+.statIcon{
+    width: 35%;
+    position: relative;
+    bottom: 10px;
+}
+.youtubeEmbedDiv{
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.youtubeEmbed{
+    width: 711px;
+    aspect-ratio: 1.77;
+}
+.statListMob{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .statListMob{
+        display: flex;
+    }
+
+    .stats{
+        padding-top: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .stats_head{
+        
+        font-size: 35px;
+    }
+    .stat{
+        width: 40vw;
+        min-width: 0px;
+        aspect-ratio: 1;
+        background-color: #532a48;
+        color: white;
+        border-radius: 100%;
+        border: #532a48 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .statHead{
+        margin: 0px;
+        font-size: calc(150% + 1.5vw);
+    }
+    .statUnder{
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+    .statList{
+        width: 100%;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .statLists{
+        padding-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+    
+        gap: 8vw;
+        margin-bottom: 33px;
+    }
+    .youtubeEmbed{
+        width: 355.5px;
+        
+    }
+    .youtubeEmbedDiv{
+        padding-top: 1vh;
+    }
+    .statDesktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) 
+    and (max-width: 1024px) {
+    .statListMob{
+        display: flex;
+    }
+
+    .stats{
+        padding-top: 5vh;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .stats_head{
+        
+        font-size: 35px;
+    }
+    .stat{
+        width: 10rem;
+        aspect-ratio: 1;
+        background-color: #532a48;
+        color: white;
+        border-radius: 100%;
+        border: #532a48 2px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .statHead{
+        margin: 0px;
+        font-size: 2.4rem;
+    }
+    .statUnder{
+        margin: 0px;
+        font-size: 1.1rem;
+    }
+    .statList{
+        
+        max-width: 65%;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    .statLists{
+        padding-top: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+    
+        gap: 8vw;
+        margin-bottom: 33px;
+    }
+    .youtubeEmbed{
+        width: 600px;
+        padding-top: 0px;
+    }
+    .youtubeEmbedDiv{
+        padding-top: 3vh;
+    }
+    .statDesktop{
+        display: none;
+    }
+}
