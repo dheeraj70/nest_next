@@ -9,7 +9,7 @@ export default function Nav() {
   const burger2 = useRef(null);
   const burger3 = useRef(null);
 
-  const bookAppointment = ()=>{window.open("https://wa.me/7799001120")};
+  const bookAppointment = ()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")};
 
   const burgerPressed = () => {
     toggle.current.classList.toggle("nav_links_show");

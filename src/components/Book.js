@@ -10,15 +10,15 @@ export default function Book() {
     
         <div className="bookDetails">
             <div className="bookPhones">
-                    <h2 onClick={()=>{window.open("tel:+917799001120")}} className="bookPhone">+91 7799001120</h2>
-                    <h2 onClick={()=>{window.open("tel:+917799001120")}} className="bookPhone">+91 9030446570</h2>
+                    <h2 style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+919550555271")}} className="bookPhone">+91 9550555271</h2>
+                    <h2 style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+914048913270")}} className="bookPhone">+91 4048913270</h2>
             </div>
             <div className="bookDetailsDivider">
 
             </div>
             <div className="bookWhatsApp">
                 <p className='bookWhatsAppHead'>Request an Appointment on Whatsapp.</p>
-                <button onClick={()=>{window.open("https://wa.me/7799001120")}} className='bookDetailsBtn'>Book an Appointment <i className="fa-solid fa-calendar-check"></i></button>
+                <button onClick={()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")}} className='bookDetailsBtn'>Book an Appointment <i className="fa-solid fa-calendar-check"></i></button>
             </div>
         </div>
     </div>

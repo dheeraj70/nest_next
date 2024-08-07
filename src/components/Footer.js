@@ -28,18 +28,19 @@ export default function Footer() {
             <div className="f1DetailName">
             <i className="fa-solid fa-envelope"></i> :
             </div>
-            <div className="f1DetailValue">
-steverogers@gmail.com            </div>
+            <div style={{cursor: "pointer"}} onClick={() => { window.location.href = "mailto:nestfertilityandivf@gmail.com"; }}
+ className="f1DetailValue">
+nestfertilityandivf@gmail.com            </div>
             <div className="f1DetailName">
             <i className="fa-solid fa-phone"></i> :
             </div>
-            <div className="f1DetailValue">
-            7895412548            </div>
+            <div style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+919550555271")}} className="f1DetailValue">
+            9550555271</div>
             <div className="f1DetailName">
             <i className="fa-solid fa-phone"></i> :
             </div>
-            <div className="f1DetailValue">
-                8963245671
+            <div style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+914048913270")}} className="f1DetailValue">
+                4048913270
             </div>
         </div>
       </div>
@@ -54,6 +55,7 @@ steverogers@gmail.com            </div>
     <li className="footerLinksitems">Egg Freezing</li>
     <li className="footerLinksitems">Male Infertility Treatments</li>
     <li className="footerLinksitems">Polycystic Ovary Syndrome (PCOS) Treatment</li>
+    <li className="footerLinksitems">Post IVF Pregnancy Care</li>
 </ul>
 
       </div>
@@ -70,9 +72,9 @@ steverogers@gmail.com            </div>
       <div className="footer3contact">
       <p className="footerLinksHead">Contact us</p>
         <ul className="footerLinksList">
-    <li className="footerLinksitems">Whatsapp us <i className="fa-brands fa-whatsapp"></i></li>
-    <li className="footerLinksitems">Call us <i className="fa-solid fa-phone"></i></li>
-    <li className="footerLinksitems">Email us <i className="fa-solid fa-envelope"></i></li>
+    <li style={{cursor: "pointer"}} onClick={()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")}} className="footerLinksitems">Whatsapp us <i className="fa-brands fa-whatsapp"></i></li>
+    <li style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+919550555271")}} className="footerLinksitems">Call us <i className="fa-solid fa-phone"></i></li>
+    <li style={{cursor: "pointer"}} onClick={() => { window.location.href = "mailto:nestfertilityandivf@gmail.com"; }} className="footerLinksitems">Email us <i className="fa-solid fa-envelope"></i></li>
     
 </ul>
       </div>

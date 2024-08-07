@@ -21,9 +21,9 @@ export default function About() {
           </h3>
           <h3 className="about_left_text docName">Dr. Shravani Pulluri</h3>
           <h3 className="about_left_text docDesign">
-            DGO, MBBS
+            {`MBBS, DGO FRM(Germany)`}
             <br />
-            Gynecologist,Obstetrician <br /> Reproductive Endocrinologist (Infertility)
+            {`Fellowship in Infertility (IMA)`}<br /> Consultant Gynecologist & Fertility Specialist
           </h3>
           <p className="about_left_text docDesc">
             Dr. Shravani Pulluri, Best Gynecologist and Obstetrician in

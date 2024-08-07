@@ -3,7 +3,7 @@ import './Hero.css'
 
 export default function Hero() {
 
-  const bookAppointment = ()=>{window.open("https://wa.me/7799001120")};
+  const bookAppointment = ()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")};
 {/*We help you welcome your little one.  ------- could be useful */  }
   return (
     <div className='hero'>

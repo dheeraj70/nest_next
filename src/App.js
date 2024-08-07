@@ -44,16 +44,16 @@ function App() {
     <Reviews />
     <Book />
     <Footer />
-    {/*<div className="floatingWhatsApp" onClick={()=>{window.open("https://wa.me/7799001120")}}>Chat with us<i style={{fontSize: "25px"}} className="fa-brands fa-whatsapp"></i></div>
-    <div className="floatingCall" onClick={()=>{window.open("tel:+917799001120")}}><i style={{fontSize: "17px"}} className="fa-solid fa-phone"></i></div>*/}
+    {/*<div className="floatingWhatsApp" onClick={()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")}}>Chat with us<i style={{fontSize: "25px"}} className="fa-brands fa-whatsapp"></i></div>
+    <div className="floatingCall" onClick={()=>{window.open("tel:+919550555271")}}><i style={{fontSize: "17px"}} className="fa-solid fa-phone"></i></div>*/}
     <div ref={floatingArrow} className="floatingArrow" onClick={()=>{window.location.href = "#emptyTop"}}><i className="fa-solid fa-arrow-up"></i></div>
     
     <div className="floatingDiv">
       <div className="floatingBlur">
 
       </div>
-    <div className="fCall" onClick={()=>{window.open("tel:+917799001120")}}>Call Us<i style={{fontSize: "14px"}} className="fa-solid fa-phone"></i></div>
-    <div className="fWhatsApp" onClick={()=>{window.open("https://wa.me/917799001120?text=I%20want%20to%20book%20an%20appointment")}}>Book Appointment<i style={{fontSize: "25px"}} className="fa-brands fa-whatsapp"></i></div>
+    <div className="fCall" onClick={()=>{window.open("tel:+919550555271")}}>Call Us<i style={{fontSize: "14px"}} className="fa-solid fa-phone"></i></div>
+    <div className="fWhatsApp" onClick={()=>{window.open("https://wa.me/919550555271?text=I%20want%20to%20book%20an%20appointment")}}>Book Appointment<i style={{fontSize: "25px"}} className="fa-brands fa-whatsapp"></i></div>
 
     </div>
 
