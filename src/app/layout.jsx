@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Nest Fertility and IVF',
-  description: 'Website created with Next.js for Nest Fertility & IVF clinic.',
+  title: 'Best IVF and Fertility center in Hyderabad | Top Fertility Hospital/Clinic in Hyderabad | Nest Fertility and IVF',
+  description: 'Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. Our expert team is dedicated to providing personalized care to help you achieve your dream of parenthood. Visit us for the best fertility services in Hyderabad.',
 };
 
 export default function RootLayout({ children }) {
@@ -11,20 +11,20 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Nest Fertility & IVF clinic offers comprehensive fertility treatments and services. Visit our website to learn more." />
-        <meta name="keywords" content="Fertility, IVF, Clinic, Nest Fertility, Infertility Treatment, Reproductive Health" />
+        <meta name="description" content="Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. Our expert team is dedicated to providing personalized care to help you achieve your dream of parenthood. Visit us for the best fertility services in Hyderabad." />
+        <meta name="keywords" content="Fertility Clinic Hyderabad, IVF Clinic Hyderabad, Nest Fertility and IVF, Best Fertility Clinic in Hyderabad, Infertility Treatment Hyderabad, IUI Treatment Hyderabad, Reproductive Health Services, IVF Treatment Cost Hyderabad, Fertility Specialists Hyderabad, Madeenaguda Fertility Clinic, Egg Freezing Hyderabad, Sperm Donation Hyderabad, Assisted Reproductive Technology, In Vitro Fertilization Hyderabad, Fertility Consultation Hyderabad" />
         <meta name="robots" content="index, follow" />
         
-        <meta property="og:title" content="Nest Fertility & IVF" />
-        <meta property="og:description" content="Nest Fertility & IVF clinic offers comprehensive fertility treatments and services. Visit our website to learn more." />
+        <meta property="og:title" content="Best IVF and Fertility center in Hyderabad | Top Fertility Hospital/Clinic in Hyderabad | Nest Fertility and IVF" />
+        <meta property="og:description" content="Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. Our expert team is dedicated to providing personalized care to help you achieve your dream of parenthood. Visit us for the best fertility services in Hyderabad." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.yourwebsite.com" />
-        <meta property="og:image" content="https://www.yourwebsite.com/og-image.jpg" />
+        <meta property="og:url" content="https://www.nestfertilityandivf.com" />
+        <meta property="og:image" content="/og_img.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Nest Fertility & IVF" />
-        <meta name="twitter:description" content="Nest Fertility & IVF clinic offers comprehensive fertility treatments and services. Visit our website to learn more." />
-        <meta name="twitter:image" content="https://www.yourwebsite.com/twitter-image.jpg" />
+        <meta name="twitter:title" content="Best IVF and Fertility center in Hyderabad | Top Fertility Hospital/Clinic in Hyderabad | Nest Fertility and IVF" />
+        <meta name="twitter:description" content="Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. Our expert team is dedicated to providing personalized care to help you achieve your dream of parenthood. Visit us for the best fertility services in Hyderabad." />
+        <meta name="twitter:image" content="/og_img.jpg" />
 
         <link rel="apple-touch-icon" href="/logo192.png" />
         <link rel="manifest" href="/manifest.json" />

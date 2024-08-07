@@ -18,9 +18,9 @@ export default function Reviews() {
               <h2 className="bD-text bD-name">Dr Shravani's Nest Fertility</h2>
               <div className="ratingStarsDiv">
                 {" "}
-                <h2 className="bD-text rating">
+                <p className="bD-text rating">
                   5.0 <span className="ratingStars">★ ★ ★ ★ ★</span>
-                </h2>
+                </p>
                 
               </div>
             </div>
