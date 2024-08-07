@@ -8,7 +8,7 @@ export default function Stats() {
 
   useEffect(() => {
     if (Statview) {
-      if (SuccessRate < 98) {
+      if (SuccessRate < 88) {
         setTimeout(() => {
           setSuccessRate(SuccessRate + 1);
         }, 10);
