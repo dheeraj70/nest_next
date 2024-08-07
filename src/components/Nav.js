@@ -67,7 +67,7 @@ export default function Nav() {
       </button>
       <div className="nav_btns">
         <button className="nav_btn" onClick={bookAppointment}>Book Appoitment</button>
-        <button className="nav_btn" onClick={()=>{window.open("tel:7799001120")}}>Call Us</button>
+        <button className="nav_btn" onClick={()=>{window.open("tel:+919550555271")}}>Call Us</button>
       </div>
 
       
