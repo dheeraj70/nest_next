@@ -26,12 +26,15 @@
     display: flex;
     flex-direction: column;
     color: white;
-    align-items: end;
+    align-items: flex-end;
     justify-content: center;
     gap: 7px;
 }
 .bookPhone{
     margin: 0px;
+    color: white;
+    -webkit-text-fill-color: white;
+   
 }
 .bookWhatsApp{
     color: white;
@@ -86,13 +89,13 @@
         display: flex;
         flex-direction: column;
         color: white;
-        align-items: start;
+        align-items: flex-start;
         justify-content: center;
         gap: 7px;
     }
     .bookPhone{
         margin: 0px;
-        font-size: 17px;
+        font-size: 19px;
     }
     .bookWhatsApp{
         color: white;
@@ -100,7 +103,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         gap: 10px;
     }
     .bookWhatsAppHead{
@@ -151,7 +154,7 @@
         display: flex;
         flex-direction: column;
         color: white;
-        align-items: start;
+        align-items: flex-start;
         justify-content: center;
         gap: 7px;
     }
@@ -165,7 +168,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         gap: 10px;
     }
     .bookWhatsAppHead{
