@@ -10,8 +10,8 @@ export default function Book() {
     
         <div className="bookDetails">
             <div className="bookPhones">
-                    <h2 style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+919550555271")}} className="bookPhone">+91 9550555271</h2>
-                    <h2 style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+914048913270")}} className="bookPhone">+91 4048913270</h2>
+                    <h2 style={{cursor: "pointer", textDecoration: "none"}} onClick={()=>{window.open("tel:+919550555271")}} className="bookPhone">+91 9550555271</h2>
+                    <h2 style={{cursor: "pointer", textDecoration: "none"}} onClick={()=>{window.open("tel:+914048913270")}} className="bookPhone">+91 4048913270</h2>
             </div>
             <div className="bookDetailsDivider">
 

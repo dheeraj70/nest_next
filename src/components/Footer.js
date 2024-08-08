@@ -34,12 +34,12 @@ nestfertilityandivf@gmail.com            </div>
             <div className="f1DetailName">
             <i className="fa-solid fa-phone"></i> :
             </div>
-            <div style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+919550555271")}} className="f1DetailValue">
+            <div style={{cursor: "pointer", textDecoration: "none"}} onClick={()=>{window.open("tel:+919550555271")}} className="f1DetailValue">
             9550555271</div>
             <div className="f1DetailName">
             <i className="fa-solid fa-phone"></i> :
             </div>
-            <div style={{cursor: "pointer"}} onClick={()=>{window.open("tel:+914048913270")}} className="f1DetailValue">
+            <div style={{cursor: "pointer", textDecoration: "none"}} onClick={()=>{window.open("tel:+914048913270")}} className="f1DetailValue">
                 4048913270
             </div>
         </div>
