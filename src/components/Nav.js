@@ -40,7 +40,8 @@ export default function Nav() {
         <img
           className="nav_logo_img"
           src="/dark_nest.svg"
-          alt="Nest Fertility and IVF"
+          alt="Nest Fertility and IVF - Best Fertility in Hyderabad"
+          title="Best Fertility Center in Hyderabad"
         />
       </div>
       <div className="nav_links" ref={toggle}>
@@ -66,8 +67,8 @@ export default function Nav() {
         <div ref={burger3} className="burgerb"></div>
       </button>
       <div className="nav_btns">
-        <button className="nav_btn" onClick={bookAppointment}>Book Appoitment</button>
-        <button className="nav_btn" onClick={()=>{window.open("tel:+919550555271")}}>Call Us</button>
+        <button title="Book Appointment on Whatsapp" className="nav_btn" onClick={bookAppointment}>Book Appoitment</button>
+        <button title="Call us now" className="nav_btn" onClick={()=>{window.open("tel:+919550555271")}}>Call Us</button>
       </div>
 
       

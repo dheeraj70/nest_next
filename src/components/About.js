@@ -12,14 +12,15 @@ export default function About() {
           <img
             className="doctor_pic"
             src="./shravani.png"
-            alt="Doctor Shravani"
+            alt="Doctor Shravani Pulluri at Nest Fertility and IVF"
+             title="Dr. Shravani Pulluri - Top IVF Expert"
           />
         </div>
         <div className="about_left_detail">
           <h3 className="about_left_text docNameHead">
             Your Trusted Specialist
           </h3>
-          <h3 className="about_left_text docName">Dr. Shravani Pulluri</h3>
+          <h3 title="Dr. Shravani Pulluri - Top IVF Expert" className="about_left_text docName">Dr. Shravani Pulluri</h3>
           <h3 className="about_left_text docDesign">
             {`MBBS, DGO FRM(Germany)`}
             <br />

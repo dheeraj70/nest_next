@@ -34,32 +34,32 @@ export default function Stats() {
 
       <div className="statLists">
         <div className="statList">
-          <div className="stat">
+          <div title="Best Success Rate in IVF" className="stat">
             <p className="statHead">{SuccessRate}%</p>
             <p className="statUnder">Success Rate</p>
           </div>
-          <div className="stat">
+          <div title="Experienced IVF Specialists" className="stat">
             <p className="statHead" ref={statRef}>
               {Math.floor(SuccessRate / 7)}+ Yrs
             </p>
             <p className="statUnder">Experience</p>
           </div>
-          <div className="stat statDesktop">
-            <img className="statIcon" src="/doc.png" alt="Doctor" />
+          <div title="Experienced IVF Specialists" className="stat statDesktop">
+            <img className="statIcon" src="/doc.png" alt="Fertility Doctor" />
             <p className="statUnder">Top IVF Experts</p>
           </div>
-          <div className="stat statDesktop">
-            <img className="statIcon" src="/pig.png" alt="Doctor" />
+          <div title="Affordable Cost" className="stat statDesktop">
+            <img className="statIcon" src="/pig.png" alt="Fertility Doctor at cost-effective prices" />
             <p className="statUnder">Affordable</p>
           </div>
         </div>
-        <div className="statList statListMob">
+        <div title="Experienced IVF Specialists" className="statList statListMob">
           <div className="stat">
-            <img className="statIcon" src="/doc.png" alt="Doctor" />
+            <img className="statIcon" src="/doc.png" alt="Fertility Doctor" />
             <p className="statUnder">Top IVF Experts</p>
           </div>
-          <div className="stat">
-            <img className="statIcon" src="/pig.png" alt="Doctor" />
+          <div title="Affordable Cost" className="stat">
+            <img className="statIcon" src="/pig.png" alt="Fertility Doctor at cost-effective prices" />
             <p className="statUnder">Affordable</p>
           </div>
         </div>

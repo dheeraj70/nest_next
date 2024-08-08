@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. " />
-        <meta name="keywords" content="Fertility Clinics Hyderabad, IVF Clinic Hyderabad, Nest Fertility and IVF, Best Fertility Clinic in Hyderabad, Infertility Treatment Hyderabad, IUI Treatment Hyderabad, Reproductive Health Services, IVF Treatment Cost Hyderabad, Fertility Specialists Hyderabad, Madeenaguda Fertility Clinic, Egg Freezing Hyderabad, Sperm Donation Hyderabad, Assisted Reproductive Technology, In Vitro Fertilization Hyderabad, Fertility Consultation Hyderabad" />
+        <meta name="keywords" content="Best Fertility Clinic in Hyderabad, Fertility Clinics Hyderabad, IVF Clinic Hyderabad, Nest Fertility and IVF, Infertility Treatment Hyderabad, IUI Treatment Hyderabad, Reproductive Health Services, IVF Treatment Cost Hyderabad, Fertility Specialists Hyderabad, Madeenaguda Fertility Clinic, Egg Freezing Hyderabad, Sperm Donation Hyderabad, Assisted Reproductive Technology, In Vitro Fertilization Hyderabad, Fertility Consultation Hyderabad, IVF , IUI" />
         <meta name="robots" content="index, follow" />
         
         <meta property="og:title" content="Best IVF and Fertility center in Hyderabad | Nest Fertility and IVF" />
