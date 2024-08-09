@@ -38,7 +38,12 @@ export default function RootLayout({ children }) {
                 "https://www.practo.com/hyderabad/clinic/nest-fertility-and-ivf-madinaguda",
                 "https://www.youtube.com/@nestfertility1"
                 
-              ]
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "191"
+                }
             }),
           }}
         />
