@@ -15,6 +15,34 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="Best Fertility Clinic in Hyderabad, Fertility Clinics Hyderabad, IVF Clinic Hyderabad, Nest Fertility and IVF, Infertility Treatment Hyderabad, IUI Treatment Hyderabad, Reproductive Health Services, IVF Treatment Cost Hyderabad, Fertility Specialists Hyderabad, Madeenaguda Fertility Clinic, Egg Freezing Hyderabad, Sperm Donation Hyderabad, Assisted Reproductive Technology, In Vitro Fertilization Hyderabad, Fertility Consultation Hyderabad, IVF , IUI" />
         <meta name="robots" content="index, follow" />
         
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "MedicalClinic",
+              "name": "Nest Fertility and IVF",
+              "image": "https://nestfertilityandivf.com/og_img.jpg",
+              "@id": "https://www.nestfertilityandivf.com",
+              "url": "https://www.nestfertilityandivf.com",
+              "telephone": "+919550555271",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1st floor, krishna lila plaza, Viswaswara Nagar Colony, Shanti Nagar Colony, Madeenaguda",
+                "addressLocality": "Hyderabad",
+                "postalCode": "500049",
+                "addressCountry": "IN"
+              },
+              "sameAs": [
+                "https://www.instagram.com/nestfertilityivf/",
+                "https://www.practo.com/hyderabad/clinic/nest-fertility-and-ivf-madinaguda",
+                "https://www.youtube.com/@nestfertility1"
+                
+              ]
+            }),
+          }}
+        />
+
         <meta property="og:title" content="Best IVF and Fertility center in Hyderabad | Nest Fertility and IVF" />
         <meta property="og:description" content="Nest Fertility and IVF is the leading fertility clinic in Hyderabad, located in Madeenaguda. We offer comprehensive fertility treatments including IVF, IUI, and more. " />
         <meta property="og:type" content="website" />
