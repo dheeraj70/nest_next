@@ -33,17 +33,25 @@ export default function RootLayout({ children }) {
                 "postalCode": "500049",
                 "addressCountry": "IN"
               },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "17.4965333802915",
+                "longitude": "78.3456101802915"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "191",
+                "bestRating" : "5",
+                "worstRating" : "0"
+              },
               "sameAs": [
                 "https://www.instagram.com/nestfertilityivf/",
                 "https://www.practo.com/hyderabad/clinic/nest-fertility-and-ivf-madinaguda",
                 "https://www.youtube.com/@nestfertility1"
                 
-              ],
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "191"
-                }
+              ]
+              
             }),
           }}
         />
