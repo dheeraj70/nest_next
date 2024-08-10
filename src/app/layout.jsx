@@ -61,6 +61,7 @@ export default function RootLayout({ children }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.nestfertilityandivf.com" />
         <meta property="og:image" content="/og_img.jpg" />
+        <meta property="og:site_name" content="Nest Fertility and IVF" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Best IVF and Fertility center in Hyderabad | Nest Fertility and IVF" />
