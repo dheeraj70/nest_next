@@ -76,6 +76,16 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
         
         <script src="https://kit.fontawesome.com/7ebdac75d5.js" crossOrigin="anonymous"></script>
+        {/*<!-- Google tag (gtag.js) -->*/}
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11476220245">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11476220245');
+</script>
       </head>
       <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
